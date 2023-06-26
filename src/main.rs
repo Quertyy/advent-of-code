@@ -1,9 +1,11 @@
 mod day1;
 mod day2;
+mod day3;
 
 fn main() {
     day_1();
     day_2();
+    day_3();
 }
 
 fn day_1() {
@@ -20,4 +22,9 @@ fn day_1() {
 fn day_2() {
     let total_score = day2::get_result();
     println!("Total score is {}", total_score);
+}
+
+fn day_3() {
+    let result = day3::result();
+    println!{"Sum of priorities is {result}"};
 }
